@@ -6,7 +6,7 @@ services:
     - redis
 
 env:
-    - MYENV = "myadmin"
+    - MYENV = "blog"
 
 install:
     - echo $MYENV
